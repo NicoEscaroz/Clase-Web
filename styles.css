@@ -1,0 +1,40 @@
+body {
+  background-color: lightgreen;
+  opacity: 0.7;
+  font-family: Arial, sans-serif;
+  font-style: arial;
+}
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  min-width: none;
+  max-height: 100px;
+  min-height: 100px;
+}
+
+button {
+  background-color: transparent;
+  color: black;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.2s;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: white;
+}
+
+input {
+  margin: 5px;
+}
+
+span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}
